@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: arial , sans-serif;
+  font-size: large;
+  margin: 0;
+  padding : 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+#home nav li{
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1.2em;
+  padding: 0.5em 0.5em;
+  float: right;
+  opacity: 0.8;
+
+}
+#home a:hover {
+  background-color: grey;
+  color: black;
+  padding: 0.5em 0.5em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+div.bgimg-1, div.bgimg-2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url(../images/forrest.jpg);
+  min-height: 50em;
+
+}
+.bgimg-2 {
+  background-image: url(../images/beach.jpg);
+  min-height: 50em;
+}
+div.container h3{
+  position: relative;
+  align-items: center;
+  top: 12em;
+  font-size: 1.5em;
+  clear: both;
+  opacity: 0.70;
+}
+div.container p {
+  position: relative;
+  top: 18em;
+  font-size: 1.2em;
+  padding: 1em 5em;
+  background-color: grey;
+  opacity: 0.75;
+}
+
+div.bgimg-2 h3 {
+  position: relative;
+  top: 2em;
+  font-size: 1.7em;
+}
+
+.row-1 div {
+  position: relative;
+  float: left;
+  display: block;
+  width: 33.3%;
+  height:20em;
+  top: 10em;
+  background-color: grey;
+  opacity: 0.8;
+  padding-top: 1em;
+}
+
+ .col p, h4 {
+  position: relative;
+  background-color: grey;
+  top: 2em;
+  margin:0.5em;
+  padding: 0 1em;
+}
+
+
+.contact h3 {
+    margin-top: 2%;
+}
+
+.contact ul {
+    margin-bottom: 6%;
+}
+
+.contact ul li {
+    list-style: none;
+    margin: 2%;
+    padding: 0%;
+    border-radius: 5%;
+}
+
+
+footer {
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-weight: bold;
+  max-width: 90%;
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  margin: 0px;
+  padding-left: 4.5%;
+}
+
+.right {
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+nav ul, .contact a {
+  padding: 0;
+  font-weight: bold;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
