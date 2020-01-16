@@ -28,7 +28,7 @@ a{
   text-decoration: none;
   color: black;
 }
-div.bgimg-1, div.bgimg-2 {
+div.bgimg-1, div.bgimg-2, div.bgimg-3, div.bgimg-4 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -42,6 +42,14 @@ div.bgimg-1, div.bgimg-2 {
 
 }
 .bgimg-2 {
+  background-image: url(../images/beach.jpg);
+  min-height: 50em;
+}
+.bgimg-3 {
+  background-image: url(../images/forrest.jpg);
+  min-height: 50em;
+}
+.bgimg-4 {
   background-image: url(../images/beach.jpg);
   min-height: 50em;
 }
